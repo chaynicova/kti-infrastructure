@@ -9,4 +9,4 @@ RUN pip install --upgrade pip
 COPY ./flask_progect/requirements.txt /flask_progect/requirements.txt
 RUN pip install -r requirements.txt
 
-COPY ./flask_progect /flask_progect
+COPY ./flask_project /flask_project
